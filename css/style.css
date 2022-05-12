@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+}
+
+p {
+	font-family: "조선일보명조";
+	color: #86ae72;
+	width: 500px;
+	height: 500px;
+	border: 2px solid;
+	border-radius: 250px;
+	text-align: center;
+	line-height: 500px;
+	font-size: 70px;
+	background: ;
+	margin: 50% auto;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.box {
+	width: 100%;
+	height: 1000px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+
+.opa {
+	width: 100%;
+	height: 100%;
+	border: 1px solid;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: -1
+}
+
+video {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	z-index: -2
+}
+
+.text {
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	z-index: 100
+}
+
+p:hover {
+	background: white;
+}
+a{text-decoration: none;color:inherit}
