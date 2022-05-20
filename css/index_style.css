@@ -113,7 +113,7 @@ nav img {
 .chatbox input{height: 40px;}
 
 
-.popup{border: 10px solid #ddd;width: 600px;height: 400px;background:url(../img/popup.jpg)no-repeat;position: fixed;top: 200px;left: 150px;z-index: 100000;}
+.popup{border: 10px solid #ddd;width: 600px;height: 400px;background:url(../img/popup.jpg)no-repeat;position: fixed;top: 200px;left: 150px;z-index: 10000000;}
 .popup button{float: right}
 
 
